@@ -12,7 +12,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with: 
-        spec: cypress/e2e/todoFail.cy.js
+          spec: cypress/e2e/todoFail.cy.js
       # after the test run completes
       # store videos and any screenshots
       # NOTE: screenshots will be generated only if E2E test failed
